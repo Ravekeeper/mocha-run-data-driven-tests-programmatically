@@ -1,0 +1,16 @@
+{
+  "name": "mocha-run-data-driven-tests-programmatically",
+  "version": "1.0.0",
+  "description": "Example project for programmatically running mocha",
+  "main": "index.js",
+  "author": "Lina Larionova",
+  "license": "MIT",
+  "scripts": {
+    "programmatic": "node programmatic-test-runner.js",
+    "manual": "mocha test/**/*.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "mocha": "^7.1.1"
+  }
+}

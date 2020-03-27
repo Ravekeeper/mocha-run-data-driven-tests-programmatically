@@ -1,0 +1,15 @@
+# OS files
+.DS_Store
+
+# IDE files
+.idea/
+*.iml
+.vscode
+*.swp
+
+# NPM artifacts
+package-lock.json
+node_modules/
+
+# Build artifacts
+*coverage
