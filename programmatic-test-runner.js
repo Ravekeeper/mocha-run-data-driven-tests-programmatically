@@ -22,4 +22,12 @@ mochaInstance.loadFiles(() => {
     })
 });
 
+mochaInstance
+    .loadFilesAsync()
+    .then(() => {
+        mochaInstance.suite.eachTest((test) => {
+            console.log(`Loaded async test = ${test.file}`);
+        });
+    });
+
 mochaInstance.run();

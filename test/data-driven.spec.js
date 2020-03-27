@@ -6,7 +6,7 @@ axios
     .then(data => {
         const array = data.data;
         array.forEach(element => {
-            describe(`Data-driven tests - ${element.name}`, async () =>{
+            describe(`Data-driven tests - ${element.name}`, () =>{
                 it(`${element.name}`, async () => {
                     console.log(JSON.stringify(element, null, 2));
                 });
